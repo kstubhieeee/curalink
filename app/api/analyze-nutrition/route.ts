@@ -11,7 +11,7 @@ export async function POST(request: NextRequest) {
 
     // Initialize Gemini AI
     const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY!);
-    const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash-exp" });
+    const model = genAI.getGenerativeModel({ model: "gemini-3-flash-preview" });
 
     // Prepare comprehensive nutrition analysis prompt
     const prompt = `You are an expert AI nutritionist and dietitian. Analyze the food image provided and give comprehensive nutritional insights and personalized recommendations.

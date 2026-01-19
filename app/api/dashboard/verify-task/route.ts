@@ -114,7 +114,7 @@ export async function POST(request: NextRequest) {
     const videoBytes = await videoFile.arrayBuffer();
     const videoBase64 = Buffer.from(videoBytes).toString("base64");
 
-    const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash-exp" });
+    const model = genAI.getGenerativeModel({ model: "gemini-3-flash-preview" });
 
     const prompt = [
       {
@@ -425,6 +425,6 @@ export async function GET() {
       "Quality scoring",
       "Automatic coin rewards",
     ],
-    model: "gemini-2.0-flash-exp",
+    model: "gemini-3-flash-preview",
   });
 }

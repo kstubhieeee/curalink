@@ -155,7 +155,7 @@ export default function VideoAnalysisPage() {
                         <div className="flex items-center justify-center gap-2 mt-4">
                             <Badge className="bg-[#D6F32F] text-[#151616] border-[#151616]">
                                 <Brain className="w-3 h-3 mr-1" />
-                                Powered by Gemini 2.5
+                                Powered by gemini-3-flash-preview
                             </Badge>
                             <Badge className="bg-white text-[#151616] border-[#151616]">
                                 <Zap className="w-3 h-3 mr-1" />
