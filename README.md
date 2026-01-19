@@ -253,6 +253,3 @@ For support and questions:
 - **Indian Medical Community** for insights and feedback
 - **Open Source Contributors** for their valuable contributions
 
----
-
-**⚠️ Medical Disclaimer**: This system is designed to assist healthcare professionals and should not replace professional medical judgment. Always consult qualified healthcare providers for medical decisions.
